@@ -1,42 +1,24 @@
-﻿//Home Work in CodeBlog Lesson #1
-
-Console.ForegroundColor = ConsoleColor.Green;
-
-string neo = "Wake up, Neo.";
-neo.ToCharArray();
-for (int i = 0; i < neo.Length; i++)
+﻿using MatrixConsole;
+while (true)
 {
-    Console.Write(neo[i]);
-    Thread.Sleep(50);
-};
-Console.WriteLine();
+    Console.WriteLine("Type Matrix to chose Matrix.");
+    Console.Write(">");
+    string input = Console.ReadLine().Trim().ToLower();
 
-//----------------------------------------
-Thread.Sleep(1000);
-Console.Clear();
-string neo2 = "The Matrix has you.";
-neo2.ToCharArray();
-for (int i = 0; i < neo2.Length; i++)
-{
-    Console.Write(neo2[i]);
-    Thread.Sleep(50);
-};
-Console.WriteLine();
-
-//----------------------------------------
-Thread.Sleep(1000);
-Console.Clear();
-string neo3 = "Follow the White Rabbit.";
-neo3.ToCharArray();
-for (int i = 0; i < neo3.Length; i++)
-{
-    Console.Write(neo3[i]);
-    Thread.Sleep(50);
-};
-Console.WriteLine();
-
-//----------------------------------------
-Thread.Sleep(1000);
-Console.Clear();
-Console.WriteLine("Knock, knock, Neo.");
-
+    if (input == "matrix")
+    {
+        Console.Clear();
+        Matrix.ShowMatrix();
+    }
+    if (input == "quit" || input == "q")
+    {
+        MenuCommands.MenuExit();
+    }
+    else
+    {
+        Console.Clear();
+        Console.WriteLine("Please, write something that is in the list above.");
+        Thread.Sleep(1000);
+        Console.Clear();
+    }
+}
