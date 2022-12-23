@@ -27,6 +27,25 @@ while (true)
         ChainsawMan.GunDevil();
     }
 
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+    if (input == "man")
+    {
+        Console.WriteLine("Ichika Nito\tMasasi Kisimoto\r\nEren\tAndrew Garfield\r\n");
+        Console.ReadKey();
+    }*/
+
     //========================================================================================================================
 
     // if you wanna quit

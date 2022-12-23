@@ -5,7 +5,7 @@ namespace MatrixConsole
     {
         //gun devil attack beginning
         internal static void GunDevil()
-        {
+        {/*
             string date = "September 12, 1997 3:18:21 P.M.";
             date.ToCharArray();
             for (int i = 0; i < date.Length; i++)
@@ -72,19 +72,36 @@ namespace MatrixConsole
                 Console.Write(ability[i]);
                 Thread.Sleep(50);
             };
-            Thread.Sleep(2000);
+            Thread.Sleep(2000);*/
 
             //----------------------------------------------
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
-            /*ChainsawManPeople*/people1.ToCharArray();
+
+            people1.ToCharArray();
             for (int i = 0; i < people1.Length; i++)
             {
                 Console.Write(people1[i]);
-                Thread.Sleep(10);
-            };/*
-            Console.WriteLine(ChainsawManPeople.people1);*/
+                Thread.Sleep(5);
+            }
+            Thread.Sleep(1000);
             Console.ResetColor();
+
+            //ВАЖНО НА ЗАВТРА: МНЕ НУЖНО ИСПОЛЬЗОВАТЬ ТАБУЛЯЦИЮ ЗДЕСЬ!!! А еще нужно don't open the door сделать вращающимся, например cw(" don't") cw("  don't")cw("don't ")cw("don't  ")
+
+
+            /*
+                        //----------------------------------------------
+                        Console.Clear();
+                        people2.ToCharArray();
+                        for (int i = 0; i < people2.Length; i++)
+                        {
+                            Console.Write(people2[i]);
+                            Thread.Sleep(1);
+                        };
+
+                        //----------------------------------------------
+                        */
         }
         //gun devil attack ending
     }
