@@ -21,7 +21,7 @@ while (true)
     }
 
     //if you wanna see chainsaw man (gun devil attack)
-    if (input == "chainsaw man")
+    if (input == "chainsaw man" || input == "chainsaw")
     {
         Console.Clear();
         ChainsawMan.GunDevil();

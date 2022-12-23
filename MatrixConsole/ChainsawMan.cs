@@ -1,4 +1,5 @@
-﻿namespace MatrixConsole
+﻿using static MatrixConsole.ChainsawManPeople;
+namespace MatrixConsole
 {
     internal class ChainsawMan
     {
@@ -56,6 +57,33 @@
                 Thread.Sleep(50);
             };
             Thread.Sleep(2000);
+            Console.ResetColor();
+
+            //----------------------------------------------
+            Console.Clear();
+            string ability = "Immediately upon appearance: ability activation. Ability to fire a bullet through the head \r\n" +
+                "of every adult male within approximately 1,000 meters of the Gun Devil \r\n" +
+                "confirmed." +
+                "\r\n\r\nAbility to fire a bullet through the head of every child (ages 0-12) within approximately \r\n" +
+                "1,500 meters of the Gun Devil confirmed.";
+            ability.ToCharArray();
+            for (int i = 0; i < ability.Length; i++)
+            {
+                Console.Write(ability[i]);
+                Thread.Sleep(50);
+            };
+            Thread.Sleep(2000);
+
+            //----------------------------------------------
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
+            /*ChainsawManPeople*/people1.ToCharArray();
+            for (int i = 0; i < people1.Length; i++)
+            {
+                Console.Write(people1[i]);
+                Thread.Sleep(10);
+            };/*
+            Console.WriteLine(ChainsawManPeople.people1);*/
             Console.ResetColor();
         }
         //gun devil attack ending
