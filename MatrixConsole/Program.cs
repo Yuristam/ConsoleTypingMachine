@@ -1,19 +1,32 @@
 ﻿using MatrixConsole;
+
+//beginning of the program
 while (true)
 {
+    // the welcome part of the program
+
+    // the Main Menu of the program
     Console.WriteLine("Type Matrix to chose Matrix.");
     Console.Write(">");
+
     string input = Console.ReadLine().Trim().ToLower();
 
-    if (input == "matrix")
+
+
+    // if you wanna see Matrix movie console
+    if (input == "matrix") 
     {
         Console.Clear();
         Matrix.ShowMatrix();
     }
-    if (input == "quit" || input == "q")
+
+    // if you wanna quit
+    if (input == "quit" || input == "q")  
     {
         MenuCommands.MenuExit();
     }
+
+    // if you entered the wrong word or key
     else
     {
         Console.Clear();
@@ -22,3 +35,4 @@ while (true)
         Console.Clear();
     }
 }
+//end of the program

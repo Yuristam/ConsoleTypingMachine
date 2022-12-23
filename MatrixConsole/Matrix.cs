@@ -45,6 +45,8 @@
             Thread.Sleep(1000);
             Console.Clear();
             Console.WriteLine("Knock, knock, Neo.");
+            Thread.Sleep(1000);
+            Console.ResetColor();
         }
     }
 }
