@@ -7,10 +7,10 @@ while (true)
 
     // the Main Menu of the program
     Console.WriteLine("Type Matrix to chose Matrix.");
+    Console.WriteLine("Type Chainsaw Man to chose Chainsaw Man.");
     Console.Write(">");
 
     string input = Console.ReadLine().Trim().ToLower();
-
 
 
     // if you wanna see Matrix movie console
@@ -19,6 +19,15 @@ while (true)
         Console.Clear();
         Matrix.ShowMatrix();
     }
+
+    //if you wanna see chainsaw man (gun devil attack)
+    if (input == "chainsaw man")
+    {
+        Console.Clear();
+        ChainsawMan.GunDevil();
+    }
+
+    //========================================================================================================================
 
     // if you wanna quit
     if (input == "quit" || input == "q")  
