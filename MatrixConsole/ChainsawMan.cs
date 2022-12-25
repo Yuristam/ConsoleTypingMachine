@@ -98,14 +98,18 @@ namespace MatrixConsole
             Console.Clear();
             Thread.Sleep(1000);
 
-            people6.ToCharArray();
-            for (int k = 0; k < people6.Length; k++)
+            string[] peopleArray2 = new string[] { people6, people7 };
+
+            for (int i = 0; i < peopleArray2.Length; i++)
             {
-                Console.Write(people6[k]);
-                Thread.Sleep(1);
+                peopleArray2[i].ToCharArray();
+                for (int k = 0; k < peopleArray2[i].Length; k++)
+                {
+                    Console.Write(peopleArray2[i][k]);
+                    Thread.Sleep(1);
+                }
+                Console.Clear();
             }
-            Console.Clear();
-            
             Thread.Sleep(3000);
 
 
