@@ -36,40 +36,54 @@
         //internal static string[] peopleArray1 = new string[] { people1, people2, people3, people4, people5 }; //i don't need this string
 
         //-------------------------------------------------------------------------------------------------------------------------------
-        
-        internal static string people100 = "Takada, Ryosuke\r\n\r\nTakahata, Harumi\r\n\r\nTakahashi, Tsuneo\r\n\r\n" +
-            "Takahashi, Hiroko\r\n\r\nTakahashi, Yui\r\n\r\nTakahashi, Karin\r\n\r\nTakeuchi, Tetsuro\r\n\r\n" +
-            "Takara, Kanami\r\n\r\nTakei, Shinsuke\r\n\r\nTakei, Nobuyo\r\n\r\nTadano, Koki\r\n\r\nTamura, Chinatsu\r\n\r\n" +
-            "Chikamatsu, Momoe\r\n\r\nChikamatsu, Saki\r\n\r\nTsukamoto, Hikari\r\n\r\nTsukamoto, Yuri\r\n\r\n" +
-            "Tsukishima, Hiroshi\r\n\r\nTsugehara, Kosuke\r\n\r\nTsuji, Yoko\r\n\r\nTsudamoto, Junpei\r\n\r\n" +
-            "Tsuchida, Soichi\r\n\r\nTsuchida, Kayoko\r\n\r\nTsuboi, Yoshiyuki\r\n\r\nTsurui, Kanami\r\n\r\n" +
-            "Tegoshi, Katsuyo\r\n\r\nTezuka, Tamotsu\r\n\r\nTerasawa, Tomoe\r\n\r\nTerasawa, Matsu\r\n\r\n" +
-            "\r\n\r\nTerui, Haruko\r\n\r\nTendo, Shoichi\r\n\r\nToi, Rin\r\n\r\nTodo, Miyoshi\r\n\r\nTodo, Yoshiyuki" +
-            "\r\n\r\nTono, Yuko\r\n\r\nTogawa, Hisae\r\n\r\nTokita, Kyoichi\r\n\r\nTokumaru, Shota\r\n\r\nTokumaru, Takami" +
-            "\r\n\r\nNagae, Yuya\r\n\r\nNakai, Yoshinobu\r\n\r\n\r\n\r\nNagasawa, Eiko\r\n\r\nNakajima, Mitsuru\r\n\r\n" +
-            "Nabeshima, Setsu\r\n\r\nNarimoto, Yuri\r\n\r\nNanjo, Makoto\r\n\r\nNigaki, Takanori\r\n\r\nNishikawa, Tsuneo\r\n\r\n" +
-            "Nishimura, Michiru\r\n\r\nNitta, Sinsuke\r\n\r\nNitta, Daijiro\r\n\r\nNitta, Yuri\r\n\r\nNido, Hisao\r\n\r\n" +
-            "Niwa, Sumiko\r\n\r\nNiwa, Hiro\r\n\r\nNiwamoto, Yuhei\r\n\r\n\r\n\r\nNumata, Sosuke\r\n\r\nNozaki, Yui\r\n\r\n" +
-            "Nobushige, Yasuo\r\n\r\nNoda, Shinsuke\r\n\r\nNoda, Jennifer\r\n\r\nNoda, Satoru\r\n\r\nHagiwara, Masataka\r\n\r\n" +
-            "Hagiwara, Akemi\r\n\r\nHagiwara, Yu\r\n\r\n\r\n\r\nHigano, Yoko\r\n\r\nHisai, Yomoko\r\n\r\nHishida, Sachi\r\n\r\n" +
-            "Hino, Aoi\r\n\r\nHirokawa, Mizuki\r\n\r\nFukai, Chiyo\r\n\r\nFukai, Satoru\r\n\r\nFukai, Hinako\r\n\r\nFukigami, Misuzu" +
-            "\r\n\r\nFukui, Junko\r\n\r\nFukui, Keiichi\r\n\r\nFujio, Kazuo\r\n\r\nFujio, Mitsuko\r\n\r\nFujii, Chiyo" +
-            "\r\n\r\nFujii, Miyako\r\n\r\nFujii, Shunsuke\r\n\r\nFujii, Akari\r\n\r\nFunagawa, Sumire\r\n\r\nFurueda, Naozumi" +
-            "\r\n\r\nHenmi, Shinichiro\r\n\r\nHenmi, Nanako\r\n\r\nHojo, Fumi\r\n\r\nHojo, Shoya\r\n\r\nHoshino, Shusuke\r\n\r\n" +
-            "Hosoi, Taeko\r\n\r\nMiyoshino, Masao\r\n\r\nMiwa, Shusuke\r\n\r\nMukai, Chihiro\r\n\r\nMukoda, Kosuke\r\n\r\n" +
-            "Mukoda, Satoru\r\n\r\nMuto, Misaki\r\n\r\nMurai, Takehiko\r\n\r\nMurakami, Hideo\r\n\r\nMurakami, Shuji\r\n\r\n" +
-            "Murosawa, Akemi\r\n\r\nMega, Masaaki\r\n\r\nMeshii, Harumi\r\n\r\nMeshii, Shunta\r\n\r\nMori, Koji\r\n\r\n" +
-            "Motoki, Natsuhiko\r\n\r\n\r\n\r\nMotoki, Shizuku\r\n\r\nMonobe, Tomomi\r\n\r\nMomose, Miho\r\n\r\nMomose, Yuika" +
-            "\r\n\r\nMomose, Aika\r\n\r\nMorigami, Koichi\r\n\r\nMoriya, Satoshi\r\n\r\nMoriya, Ryuhei\r\n\r\nMorogi, Chiyoko" +
-            "\r\n\r\nMonji, Kunihiko\r\n\r\nYakushima, Tsuneo\r\n\r\nYagura, Naoko\r\n\r\nYasaka, Seiichiro\r\n\r\nYasaka, Koharu" +
-            "\r\n\r\nYasuda, Masako\r\n\r\nYanagida, Kazuhiro\r\n\r\nYanuma, Natsuko\r\n\r\nYanuma, Shinji\r\n\r\nYano, Masaaaki" +
-            "\r\n\r\nYabuki, Kazumi\r\n\r\nYabuki, Izumi\r\n\r\nYamada, Kenichi\r\n\r\nYamada, Hajime\r\n\r\nYamada, Masahiko" +
-            "\r\n\r\nYamamoto, Kanon\r\n\r\nYuki, Kazumi\r\n\r\nYukishita, Tsuyako\r\n\r\nYugi, Junichi\r\n\r\nYusa, Katsuyo" +
-            "\r\n\r\nYumioka, Chie\r\n\r\nYumioka, Hiromu\r\n\r\nYumioka, Kuniko\r\n\r\nYokoshima, Mahiru\r\n\r\n" +
-            "Yokoyama, Norimizu\r\n\r\nYoshi, Seiichi\r\n\r\nYoshida, Kunoko\r\n\r\nYoshida, Hitokazu\r\n\r\n" +
-            "Yoshida, Chiaki\r\n\r\nYotsuya, Miyoshi\r\n\r\nYodogawa, Hisa\r\n\r\n\r\n\r\nRamoto, Mitsu\r\n\r\n" +
-            "Waizumi, Teruyuki\r\n\r\nWakamatsu, Ume\r\n\r\nWakuta, Shinichi\r\n\r\nWakuda, Izumi\r\n\r\nWatanabe, Noboru" +
-            "\r\n\r\nWatanabe, Kiyoharu\r\n\r\nWatanabe, Miyoshi\r\n\r\nWatanabe, Chie\r\n\r\nWataki, Yota\r\n\r\nWataru, Miyoshi" +
-            "\r\n\r\nWada, Kazuhiro\r\n\r\n";
+
+        internal static string people6 = "Takada, Ryosuke      Takahata, Harumi       Takahashi, Tsuneo\r\n" +
+                                         "Takahashi, Hiroko    Takahashi, Yui         Takahashi, Karinr\r\n" +
+                                         "Takeuchi, Tetsuro    Takara, Kanami         Takei, Shinsuke\r\n" +
+                                         "Takei, Nobuyo        Tadano, Koki           Tamura, Chinatsu\r\n" +
+                                         "Chikamatsu, Momoe    Chikamatsu, Saki       Tsukamoto, Hikari\r\n" +
+                                         "Tsukamoto, Yuri      Tsukishima, Hiroshi    Tsugehara, Kosuke\r\n" +
+                                         "Tsuji, Yoko          Tsudamoto, Junpei      Tsuchida, Soichi\r\n" +
+                                         "Tsuchida, Kayoko     Tsuboi, Yoshiyuki      Tsurui, Kanami\r\n" +
+                                         "Tegoshi, Katsuyo     Tezuka, Tamotsu        Terasawa, Tomoe\r\n" +
+                                         "Terasawa, Matsu      Terui, Haruko          Tendo, Shoichi\r\n" +
+                                         "Toi, Rin             Todo, Miyoshi          Todo, Yoshiyuki\r\n" +
+                                         "Tono, Yuko           Togawa, Hisae          Tokita, Kyoichi\r\n" +
+                                         "Tokumaru, Shota      Tokumaru, Takami       Nagae, Yuya\r\n" +
+                                         "Nakai, Yoshinobu     Nagasawa, Eiko         Nakajima, Mitsuru\r\n" +
+                                         "Nabeshima, Setsu     Narimoto, Yuri         Nanjo, Makoto\r\n" +
+                                         "Nigaki, Takanori     Nishikawa, Tsuneo      Nishimura, Michiru\r\n" +
+                                         "Nitta, Sinsuke       Nitta, Daijiro         Nitta, Yuri\r\n" +
+                                         "Nido, Hisao          Niwa, Sumiko           Niwa, Hiro\r\n" +
+                                         "Niwamoto, Yuhei      Numata, Sosuke         Nozaki, Yui\r\n" +
+                                         "Nobushige, Yasuo     Noda, Shinsuke         Noda, Jennifer\r\n" +
+                                         "Noda, Satoru         Hagiwara, Masataka     Hagiwara, Akemi\r\n" +
+                                         "Hagiwara, Yu         Higano, Yoko           Hisai, Yomoko\r\n" +
+                                         "Hishida, Sachi       Hino, Aoi              Hirokawa, Mizuki\r\n" +
+                                         "Fukai, Chiyo         Fukai, Satoru          Fukai, Hinako\r\n" +
+                                         "Fukigami, Misuzu     Fukui, Junko           Fukui, Keiichi\r\n" +
+                                         "Fujio, Kazuo         Fujio, Mitsuko         Fujii, Chiyo\r\n" +
+                                         "Fujii, Miyako        Fujii, Shunsuke        Fujii, Akari"; //27
+
+
+        //-------------------------------------------------------------------------------------------------------------------------------
+
+        internal static string people9 = "Funagawa, Sumire\r\nFurueda, Naozumi" +
+            "\r\nHenmi, Shinichiro\r\nHenmi, Nanako\r\nHojo, Fumi\r\nHojo, Shoya\r\nHoshino, Shusuke\r\n" +
+            "Hosoi, Taeko\r\nMiyoshino, Masao\r\nMiwa, Shusuke\r\nMukai, Chihiro\r\nMukoda, Kosuke\r\n" +
+            "Mukoda, Satoru\r\nMuto, Misaki\r\nMurai, Takehiko\r\nMurakami, Hideo\r\nMurakami, Shuji\r\n" +
+            "Murosawa, Akemi\r\nMega, Masaaki\r\nMeshii, Harumi\r\nMeshii, Shunta\r\nMori, Koji\r\n" +
+            "Motoki, Natsuhiko\r\nMotoki, Shizuku\r\nMonobe, Tomomi\r\nMomose, Miho\r\nMomose, Yuika" +
+            "\r\nMomose, Aika\r\nMorigami, Koichi\r\nMoriya, Satoshi\r\nMoriya, Ryuhei\r\nMorogi, Chiyoko" +
+            "\r\nMonji, Kunihiko\r\nYakushima, Tsuneo\r\nYagura, Naoko\r\nYasaka, Seiichiro\r\nYasaka, Koharu" +
+            "\r\nYasuda, Masako\r\nYanagida, Kazuhiro\r\nYanuma, Natsuko\r\nYanuma, Shinji\r\nYano, Masaaaki" +
+            "\r\nYabuki, Kazumi\r\nYabuki, Izumi\r\nYamada, Kenichi\r\nYamada, Hajime\r\nYamada, Masahiko" +
+            "\r\nYamamoto, Kanon\r\nYuki, Kazumi\r\nYukishita, Tsuyako\r\nYugi, Junichi\r\nYusa, Katsuyo" +
+            "\r\nYumioka, Chie\r\nYumioka, Hiromu\r\nYumioka, Kuniko\r\nYokoshima, Mahiru\r\n" +
+            "Yokoyama, Norimizu\r\nYoshi, Seiichi\r\nYoshida, Kunoko\r\nYoshida, Hitokazu\r\n" +
+            "Yoshida, Chiaki\r\nYotsuya, Miyoshi\r\nYodogawa, Hisa\r\nRamoto, Mitsu\r\n" +
+            "Waizumi, Teruyuki\r\nWakamatsu, Ume\r\nWakuta, Shinichi\r\nWakuda, Izumi\r\nWatanabe, Noboru" +
+            "\r\nWatanabe, Kiyoharu\r\nWatanabe, Miyoshi\r\nWatanabe, Chie\r\nWataki, Yota\r\nWataru, Miyoshi" +
+            "\r\nWada, Kazuhiro\r\n";
     }
 }

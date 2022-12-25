@@ -74,7 +74,7 @@ namespace MatrixConsole
             };
             Thread.Sleep(2000);*/
 
-            //----------------------------------------------
+ /*           //----------------------------------------------
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
 
@@ -91,10 +91,22 @@ namespace MatrixConsole
                 }
                 Console.Clear();
             }
-            Thread.Sleep(1000);
-            Console.ResetColor();
+            Thread.Sleep(1000);*//*
+            Console.ResetColor();*/
 
             //----------------------------------------------
+            Console.Clear();
+            Thread.Sleep(1000);
+
+            people6.ToCharArray();
+            for (int k = 0; k < people6.Length; k++)
+            {
+                Console.Write(people6[k]);
+                Thread.Sleep(1);
+            }
+            Console.Clear();
+            
+            Thread.Sleep(3000);
 
 
             //ВАЖНО НА ЗАВТРА: МНЕ НУЖНО ИСПОЛЬЗОВАТЬ ТАБУЛЯЦИЮ ЗДЕСЬ!!! А еще нужно don't open the door сделать вращающимся, например cw(" don't") cw("  don't")cw("don't ")cw("don't  ")
