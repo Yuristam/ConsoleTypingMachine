@@ -78,14 +78,24 @@ namespace MatrixConsole
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
 
-            people1.ToCharArray();
-            for (int i = 0; i < people1.Length; i++)
+            string[] peopleArray1 = new string[] { people1, people2, people3, people4, people5 };
+
+            //for each "people"(string) in peopleArray1. To turn it into charArray(in console)
+            for (int i = 0; i < peopleArray1.Length; i++)
             {
-                Console.Write(people1[i]);
-                Thread.Sleep(5);
+                peopleArray1[i].ToCharArray();
+                for (int k = 0; k < peopleArray1[i].Length; k++)
+                {
+                    Console.Write(peopleArray1[i][k]);
+                    Thread.Sleep(1);
+                }
+                Console.Clear();
             }
             Thread.Sleep(1000);
             Console.ResetColor();
+
+            //----------------------------------------------
+
 
             //ВАЖНО НА ЗАВТРА: МНЕ НУЖНО ИСПОЛЬЗОВАТЬ ТАБУЛЯЦИЮ ЗДЕСЬ!!! А еще нужно don't open the door сделать вращающимся, например cw(" don't") cw("  don't")cw("don't ")cw("don't  ")
 

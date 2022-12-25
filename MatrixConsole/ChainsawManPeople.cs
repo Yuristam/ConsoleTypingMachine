@@ -33,7 +33,7 @@
             "Sugimoto, Shinji\r\nSoyama, Noboru\r\nTakada, Koji";
 
 
-        //internal static string[] peopleArray1 = new string[] { people1, people2, people3, people4, people5 };
+        //internal static string[] peopleArray1 = new string[] { people1, people2, people3, people4, people5 }; //i don't need this string
 
         //-------------------------------------------------------------------------------------------------------------------------------
         
