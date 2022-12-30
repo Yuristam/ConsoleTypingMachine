@@ -74,43 +74,99 @@ namespace MatrixConsole
             };
             Thread.Sleep(2000);*/
 
- /*           //----------------------------------------------
-            Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
+            /*           //----------------------------------------------
+                       Console.Clear();
+                       Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
 
-            string[] peopleArray1 = new string[] { people1, people2, people3, people4, people5 };
+                       string[] peopleArray1 = new string[] { people1, people2, people3, people4, people5 };
 
-            //for each "people"(string) in peopleArray1. To turn it into charArray(in console)
-            for (int i = 0; i < peopleArray1.Length; i++)
-            {
-                peopleArray1[i].ToCharArray();
-                for (int k = 0; k < peopleArray1[i].Length; k++)
-                {
-                    Console.Write(peopleArray1[i][k]);
-                    Thread.Sleep(1);
-                }
-                Console.Clear();
-            }
-            Thread.Sleep(1000);*//*
-            Console.ResetColor();*/
+                       //for each "people"(string) in peopleArray1. To turn it into charArray(in console)
+                       for (int i = 0; i < peopleArray1.Length; i++)
+                       {
+                           peopleArray1[i].ToCharArray();
+                           for (int k = 0; k < peopleArray1[i].Length; k++)
+                           {
+                               Console.Write(peopleArray1[i][k]);
+                               Thread.Sleep(1);
+                           }
+                           Console.Clear();
+                       }
+                       Thread.Sleep(1000);*/
 
             //----------------------------------------------
-            Console.Clear();
-            Thread.Sleep(1000);
+            /*  Console.Clear();
+              Thread.Sleep(1000);
 
-            string[] peopleArray2 = new string[] { people6, people7 };
+              string[] peopleArray2 = new string[] { people6, people7 };
 
-            for (int i = 0; i < peopleArray2.Length; i++)
+              for (int i = 0; i < peopleArray2.Length; i++)
+              {
+                  peopleArray2[i].ToCharArray();
+                  for (int k = 0; k < peopleArray2[i].Length; k++)
+                  {
+                      Console.Write(peopleArray2[i][k]);
+                      Thread.Sleep(1);
+                  }
+                  Console.Clear();
+              }
+              Thread.Sleep(1000);
+              Console.ResetColor();
+
+              //----------------------------------------------
+              string date2 = "3:18:22\r\nThe Gun Devil advances toward Makima.";
+              date2.ToCharArray();
+              for (int i = 0; i < date2.Length; i++)
+              {
+                  Console.Write(date2[i]);
+                  Thread.Sleep(50);
+              };
+  */
+            //----------------------------------------------
+
+            //string peopleArray is in the ChainsawManPeople class
+            for (int i = 0; i < peopleArray3.Length; i++)
             {
-                peopleArray2[i].ToCharArray();
-                for (int k = 0; k < peopleArray2[i].Length; k++)
+                Console.Write(peopleArray3[i]);
+                Thread.Sleep(50);/*
+                for (int j = 27; j < i; j+=27) //this is for after every 27th person in loop(peopleArray3)  //there is AN ERROR
+                {*/
+                if (i == 27)
                 {
-                    Console.Write(peopleArray2[i][k]);
-                    Thread.Sleep(1);
+                    Console.Clear();
+                    /*}*/
                 }
-                Console.Clear();
-            }
-            Thread.Sleep(3000);
+                else if (i == 54)
+                {
+                    Console.Clear();
+                }
+                else if (i == 81)
+                {
+                    Console.Clear();
+                }
+                else if (i == 108)
+                {
+                    Console.Clear();
+                }else if (i == 135)
+                {
+                    Console.Clear();
+                }
+                else if (i == 162)
+                {
+                    Console.Clear();
+                }
+                else if (i == 189)
+                {
+                    Console.Clear();
+                }
+                else if (i == 216)
+                {
+                    Console.Clear();
+                }
+                else if (i == 243)
+                {
+                    Console.Clear();
+                }
+            };
 
 
             //ВАЖНО НА ЗАВТРА: МНЕ НУЖНО ИСПОЛЬЗОВАТЬ ТАБУЛЯЦИЮ ЗДЕСЬ!!! А еще нужно don't open the door сделать вращающимся, например cw(" don't") cw("  don't")cw("don't ")cw("don't  ")
