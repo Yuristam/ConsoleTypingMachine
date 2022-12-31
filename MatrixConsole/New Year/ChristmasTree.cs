@@ -4,7 +4,6 @@
     {
         internal static void DrawChristmasTree()
         {
-           /* int a;*/
             while (true)
             {  
                 Console.WriteLine("Enter the level of Christmas Tree:");
@@ -19,7 +18,9 @@
                         }
                         for (int j = a - 1; j < a + i + i; j++)
                         {
+                            Console.ForegroundColor= ConsoleColor.DarkGreen; //for the green color of tree
                             Console.Write("*");
+                            Console.ResetColor();
                         }
                         Console.WriteLine();
                     }
@@ -27,7 +28,9 @@
                     {
                         Console.Write(" ");
                     }
+                    Console.ForegroundColor= ConsoleColor.DarkRed;
                     Console.WriteLine("|");
+                    Console.ResetColor();
                     Console.WriteLine("\r\nPress any key to get back.");
                     Console.ReadKey();
                     break;

@@ -19,9 +19,9 @@ class Program
 
             // the Main Menu of the program
             Console.WriteLine("Main menu");
-            Console.WriteLine("Type New Year to see New Year functions.");
-            Console.WriteLine("Type Matrix to chose Matrix.");
-            Console.WriteLine("Type Chainsaw Man (or Chainsaw) to chose Chainsaw Man.");
+            Console.WriteLine("1) Type New Year to see New Year functions.");
+            Console.WriteLine("2) Type Matrix to chose Matrix.");
+            Console.WriteLine("3) Type Chainsaw Man (or Chainsaw) to chose Chainsaw Man.");
             Console.Write(">");
 
             string input = Console.ReadLine().Trim().ToLower();
@@ -32,7 +32,7 @@ class Program
             if (input == "new year" || input =="n")
             {
                 Console.Clear();
-                ChristmasTree.DrawChristmasTree();
+                NewYearMenu.ShowNewYearMenu();
             }
 
             // if you wanna see Matrix movie console
