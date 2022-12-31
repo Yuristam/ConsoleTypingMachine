@@ -16,6 +16,8 @@
             //----------------------------------------------------------------------
             Console.WriteLine();
             Console.WriteLine("1) Type Christmas Tree or Tree to draw christmas-tree.");
+            Console.WriteLine("2) Type Christmas Decorated Tree or DTree to draw christmas-tree at home.");
+            Console.Write('>');
 
             string input = Console.ReadLine().Trim().ToLower();
 
@@ -23,6 +25,9 @@
             if(input=="tree"|| input =="christmas tree")
             {
                 ChristmasTree.DrawChristmasTree();
+            }if(input=="dtree"|| input =="christmas decorated tree")
+            {
+                ChristmasTree.DrawDecoratedTree();
             }
             else
             {

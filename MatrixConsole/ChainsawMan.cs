@@ -26,7 +26,7 @@ namespace MatrixConsole
             };
 
             //----------------------------------------------
-            Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
+            Console.ForegroundColor = ConsoleColor.DarkRed; //for the red color of letters
             string recordRed1 = "GUN DEVIL ";
             recordRed1.ToCharArray();
             for (int i = 0; i < recordRed1.Length; i++)
@@ -48,7 +48,7 @@ namespace MatrixConsole
             };
 
             //----------------------------------------------
-            Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
+            Console.ForegroundColor = ConsoleColor.DarkRed; //for the red color of letters
             string recordRed2 = "12 seconds.";
             recordRed2.ToCharArray();
             for (int i = 0; i < recordRed2.Length; i++)
@@ -76,7 +76,7 @@ namespace MatrixConsole
 
             //----------------------------------------------
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
+            Console.ForegroundColor = ConsoleColor.DarkRed; //for the red color of letters
 
             string[] peopleArray1 = new string[] { people1, people2, people3, people4, people5 };
 
@@ -120,12 +120,14 @@ namespace MatrixConsole
                 Console.Write(date2[i]);
                 Thread.Sleep(50);
             };
+            Thread.Sleep(1000);
+            Console.Clear();
 
             //----------------------------------------------
 
             //string peopleArray is in the ChainsawManPeople class
 
-            Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
+            Console.ForegroundColor = ConsoleColor.DarkRed; //for the red color of letters
             for (int i = 0; i < peopleArray3.Length; i++)
             {
                 Console.Write(peopleArray3[i]);
@@ -176,7 +178,7 @@ namespace MatrixConsole
             Console.ResetColor();
 
             //----------------------------------------------
-            string date3 = "3:18:23 Makima\r\n\r\nsights the Gun Devil\r\n\r\nat a distance of 500 kilometers.";
+            string date3 = "3:18:23\r\n\r\nMakima sights the Gun Devil\r\nat a distance of 500 kilometers.";
             date3.ToCharArray();
             for (int i = 0; i < date3.Length; i++)
             {
@@ -187,7 +189,7 @@ namespace MatrixConsole
             Console.Clear();
 
             //----------------------------------------------
-            Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
+            Console.ForegroundColor = ConsoleColor.DarkRed; //for the red color of letters
 
             string[] peopleArray4 = new string[] { people8, people9 };
 
@@ -220,7 +222,7 @@ namespace MatrixConsole
             
             //----------------------------------------------
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
+            Console.ForegroundColor = ConsoleColor.DarkRed; //for the red color of letters
 
             string[] peopleArray5 = new string[] { people10, people11 };
 
@@ -230,7 +232,7 @@ namespace MatrixConsole
                 for (int k = 0; k < peopleArray5[i].Length; k++)
                 {
                     Console.Write(peopleArray5[i][k]);
-                    Thread.Sleep(1);
+                    Thread.Sleep(20);
                 }
                 Console.Clear();
             }
@@ -248,11 +250,11 @@ namespace MatrixConsole
             Console.Clear();
 
             //----------------------------------------------
-            Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
+            Console.ForegroundColor = ConsoleColor.DarkRed; //for the red color of letters
             for (int i = 0; i < peopleArray6.Length; i++)
             {
                 Console.Write(peopleArray6[i]);
-                Thread.Sleep(5);
+                Thread.Sleep(20);
                 for (int j = 0; j < i; j++)
                 {
                     Console.Clear();
@@ -271,11 +273,11 @@ namespace MatrixConsole
             Console.Clear();
 
             //----------------------------------------------
-            Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
+            Console.ForegroundColor = ConsoleColor.DarkRed; //for the red color of letters
             for (int i = 0; i < peopleArray7.Length; i++)
             {
                 Console.Write(peopleArray7[i]);
-                Thread.Sleep(5);
+                Thread.Sleep(20);
                 for (int j = 0; j < i; j++)
                 {
                     Console.Clear();
@@ -294,11 +296,11 @@ namespace MatrixConsole
             Console.Clear();
 
             //----------------------------------------------
-            Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
+            Console.ForegroundColor = ConsoleColor.DarkRed; //for the red color of letters
             for (int i = 0; i < peopleArray8.Length; i++)
             {
                 Console.Write(peopleArray8[i]);
-                Thread.Sleep(5);
+                Thread.Sleep(20);
                 for (int j = 0; j < i; j++)
                 {
                     Console.Clear();
@@ -332,7 +334,7 @@ namespace MatrixConsole
             }
 
             //--------------------------------------------------------------------------------------------------
-            Console.ForegroundColor = ConsoleColor.Red; //for the red color of letters
+            Console.ForegroundColor = ConsoleColor.DarkRed; //for the red color of letters
             string door = @"  _____              _ _                              _   _                _                  
  |█████\            (█)█|                            |█| |█|              |█|                 
  |█|  |█| ___  _ __ |/|█|_    ___  _ __   ___ _ __   |█|_|█|__   ___    __|█| ___   ___  _ __ 
