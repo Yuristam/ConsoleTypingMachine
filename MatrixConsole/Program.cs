@@ -7,7 +7,13 @@ class Program
         while (true)
         {
             // the welcome part of the program
-
+            Console.ForegroundColor= ConsoleColor.Green;
+            Console.WriteLine("Welcome to my console app!");
+            for (int i = 0; i < Console.BufferWidth; i++)
+            {
+                Console.Write('=');
+            }
+            Console.ResetColor();
             // the Main Menu of the program
             Console.WriteLine("Type Matrix to chose Matrix.");
             Console.WriteLine("Type Chainsaw Man to chose Chainsaw Man.");
@@ -29,25 +35,6 @@ class Program
                 Console.Clear();
                 ChainsawMan.GunDevil();
             }
-
-
-
-
-
-
-
-
-
-
-
-
-            /*
-
-                if (input == "man")
-                {
-                    Console.WriteLine("Ichika Nito\tMasasi Kisimoto\r\nEren\tAndrew Garfield\r\n");
-                    Console.ReadKey();
-                }*/
 
             //========================================================================================================================
 
