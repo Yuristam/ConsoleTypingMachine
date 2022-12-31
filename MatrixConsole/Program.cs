@@ -1,4 +1,6 @@
 ﻿using MatrixConsole;
+using MatrixConsole.New_Year;
+
 class Program
 {
     internal static void Main()
@@ -14,13 +16,24 @@ class Program
                 Console.Write('=');
             }
             Console.ResetColor();
+
             // the Main Menu of the program
+            Console.WriteLine("Main menu");
+            Console.WriteLine("Type New Year to see New Year functions.");
             Console.WriteLine("Type Matrix to chose Matrix.");
-            Console.WriteLine("Type Chainsaw Man to chose Chainsaw Man.");
+            Console.WriteLine("Type Chainsaw Man (or Chainsaw) to chose Chainsaw Man.");
             Console.Write(">");
 
             string input = Console.ReadLine().Trim().ToLower();
 
+            //========================================================================================================================
+
+            //if you wanna see New Year
+            if (input == "new year" || input =="n")
+            {
+                Console.Clear();
+                ChristmasTree.DrawChristmasTree();
+            }
 
             // if you wanna see Matrix movie console
             if (input == "matrix")
