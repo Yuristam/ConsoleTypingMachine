@@ -28,7 +28,7 @@
                     {
                         Console.Write(" ");
                     }
-                    Console.ForegroundColor= ConsoleColor.DarkRed;
+                    Console.ForegroundColor= ConsoleColor.DarkYellow;
                     Console.WriteLine("|");
                     Console.ResetColor();
                     Console.WriteLine("\r\nPress any key to get back.");
