@@ -144,10 +144,117 @@
             "Ryutaku, Kenji\r\n","Rinno, Hisao\r\n","Rinno, Kota\r\n","Rinno, Churi\r\n","Rekimoto, Shigeko\r\n","Renpo, Kazuro\r\n",
             "Rokuma, Sakie\r\n","Wai, Kumiko\r\n","Wakahara, Mizuki\r\n","Wagata, Keisuke\r\n","Wagatsuma, Kaito\r\n","Wakuta, Kunihasa" 
         };
-        
+
         //-------------------------------------------------------------------------------------------------------------------------------
 
+        internal static string people8 = "Aigami, Etsuko        Aida, Kozue             Aida, Ai                  Aida, Kota\r\n" +
+                                         "Aida, Miki            Akeda, Kikuyo           Akeda, Chiyo              Ayai, Noboru\r\n" +
+                                         "Aragaki, Shohei       Arima, Tohru            Anno, Manabu              Iuchi, Miharu\r\n" +
+                                         "Iesaka, Yoichi        Igarashi, Kazuyo        Usagawa, Shizuka          Usagawa, Shuya\r\n" +
+                                         "Ogawara, Mariko       Ogura, Chiyuki          Ogura, Shuntaro           Ozawa, Satomi\r\n" +
+                                         "Kato, Kentaro         Kato, Shizumi           Kato, Minato              Kadoi, Masafumi\r\n" +
+                                         "Kano, Yuko            Kuga, Shizumi           Kusama, Naoki             Kushida, Koji\r\n" +
+                                         "Kushima, Azusa        Koga, Kanade            Koshimizu, Hidemichi      Kojo, Misato\r\n" +
+                                         "Komazawa, Ai          Komazawa, Koji          Komatsuzawa, Ichi         Komatsuzawa, Tatsumi\r\n" +
+                                         "Koyama, Risa          Saito, Tomie            Saito, Kumiko             Saibara, Jojiro\r\n" +
+                                         "Saotome, Takeko       Sakuma, Kohei           Sakurai, Shizue           Sasaki, Shunsuke\r\n" +
+                                         "Sasaki, Sae           Sasaki, Shuji           Sasaki, Ko                Sasaki, Sanae\r\n" +
+                                         "Suto, Sayaka          Suto, Mai               Suto, Yuki                Sumikawa, Harumi\r\n" +
+                                         "Sumida, Ichiro        Sumida, Akari           Suwano, Teru              Sekiguchi, Amane\r\n" +
+                                         "Sekine, Rina          Sena, Taisei            Senam Kaito               Seryo, Eiko\r\n" +
+                                         "Sono, Kenichi         Sonomura, Anri          Someya, Shuya             Chikura, Kazuya\r\n" +
+                                         "Chono, Takafumi       Chiyoda, Yasunari       Chabata, Tsugumi          Tsukamoto, Manabu\r\n" +
+                                         "Togoshi, Yuki         Togoshi, Yoshiko        Toda, Kaho                Toda, Kenjiro\r\n" +
+                                         "Tonemura, Yukihiro    Tonozuka, Saori         Naito, Koji               Naka, takehisa\r\n" +
+                                         "Nagaura, Miyuki       Nakamura, Yumi          Nakamura, Isamu           Nakamori, Kohei\r\n" +
+                                         "Nagisa, Kanami        Nashiro, Mao            Natori, Miyoko            Natori, Mei\r\n" +
+                                         "Natori, Moe           Nanajima, Keiichi       Hashiguchi, Chisato       Hasegawa, Yusuke\r\n";
 
+        //-------------------------------------------------------------------------------------------------------------------------------
+
+        internal static string people9 = "Hasegawa, Rio         Hatanaka, Shogo         Hatamoto, Yukari          Hatamoto, Yuki\r\n" +
+                                         "Hachikubo, Shota      Hachikubo, Rin          Hanaoka, Junji            Hamaguchi, Kazue\r\n" +
+                                         "Hayai, Yu             Haraguchi, Shigeo       Haraguchi, Keiko          Haraguchi, Chiyo\r\n" +
+                                         "Haraguchi, Tomomi     Haruki, Aiko            Haruki, Minato            Hioka, Daisuke\r\n" +
+                                         "Higashie, Ren         Higashie, Koki          Hosoi, Shohei             Hosoi, Rentaro\r\n" +
+                                         "Hodaka, Kasumi        Hotta, Haruo            Maekawa, Keiko            Maeda, Koki\r\n" +
+                                         "Maeda, Kodai          Maeda, Soh              Maeda, Misa               Magawa, Hiroto\r\n" +
+                                         "Makino, Nobuyuki      Makishima, Kaede        Masuda, Yoko              Masuda, Nobuyuki\r\n" +
+                                         "Machizawa, Azusa      Machizawa, Taknori      Matsuura, Rumi            Matsunaga, Misaki\r\n" +
+                                         "Matobo, Yoko          Manabe, Himawari        Manabe, Ryusei            Maruo, Shintaro\r\n" +
+                                         "Maruno, Ko            Maruno, Koki            Maruno, Koshi             Miura, Itsuki\r\n" +
+                                         "Miura, Ifumi          Miura, Kii              Miura, Kenji              Miura, Kota\r\n" +
+                                         "Miura, Shuhei         Miura, Futaba           Mimura, Kazuki            Mizutani, Eisuke\r\n" +
+                                         "Mizorogi, Fumiko      Mizorogi, Kokone        Mitsukoshi, Musashi       Midorikawa, Shigemasa\r\n" +
+                                         "Midorikawa, Mari      Mizoguchi, Kodai        Minami, Kanon             Minami, Sachiko\r\n" +
+                                         "Mineoka, Makie        Musaka, Aiki            Musaka, Kosai             Musaka, Mamoru\r\n" +
+                                         "Ryomoto, Shuichi      Ryomoto, Keiko          Ryomoto, Saori            Waizumi, Ai\r\n" +
+                                         "Waizumi, Akane        Waizumi, Kana           Waizumi, Yoshie           Wada, Koi\r\n" +
+                                         "Wada, Saeko           Wada, Shizue            Wada, Seiya               Wada, Tatsuya";
+
+        //-------------------------------------------------------------------------------------------------------------------------------
+
+        internal static string people10 = "Aiage, Chinatsu       Aizawa, Kazumasa        Akino, Saori                Asai, Sachie\r\n" +
+                                         "Asai, Takayuki        Asayama, Eiichi         Ayuta, Shinji               Ayuta, Ayumi\r\n" +
+                                         "Iori, Eriko           Iori, Runa              Ikuda, Hisao                Ikezawa, Takanori\r\n" +
+                                         "Uetani, Naoka         Uehama, Kazuro          Uehama, Masashi             Uehama, Rie\r\n" +
+                                         "Ugaki, Shinsuke       Ushioda, Makie          Ushiro, Koji                Utahashi, Inori\r\n" +
+                                         "Uchiura, Yoko         Uchiura, Emiri          Eto, Kota                   Enami, Rikako\r\n" +
+                                         "Enami, Maho           Ebina, Kunihisa         Ebina, Makie                Ousaka, Teruhiko\r\n" +
+                                         "Oumi, Misako          Ooizumi, Manami         Ooe, Yusaku                 Oki, Osamu\r\n" +
+                                         "Oki, Rinna            Ogi, Satoru             Ogi, Kota                   Ogi, Yumeno\r\n" +
+                                         "Okumoto, Masayuki     Osaka, Haruma           Ochiai, Misako              Ochiai, Kana\r\n" +
+                                         "Otobe, Shiori         Kaiki, Ryoji            Kaida, Yuki                 Kaida, Tomoharu\r\n" +
+                                         "Kagami, Asami         Kagami, Mikoto          Kaki, Junichi               Kakizakai, Ayami\r\n" +
+                                         "Kasamatsu, Kosuke     Kasamatsu, Koji         Kasamatsu, Kaede            Kashima, Tohru\r\n" +
+                                         "Katsuki, Rie          Katsuki, Yuri           Kanai, Manabu               Kanou, Hiroshi\r\n" +
+                                         "Kabeuchi, Misako      Kamiyama, Kimihko       Kii, Shohei                 Kikukawa, Reiko\r\n" +
+                                         "Kitazato, Genki       Kizaki, Hisae           Kishi, Satsuki              Kida, Erika\r\n" +
+                                         "Kinoto, Mamoru        Kinoto, Hanae           Kunii, Yoshino              Kuno, Kiyoshi\r\n";
+
+        //-------------------------------------------------------------------------------------------------------------------------------
+
+        internal static string people11 = "Kubochi, Gin          Kuragami, Tetsuro       Kuragami, Hiromi            Kuromura, Haruo\r\n" +
+                                     "Genno, Subaru         Koishikawa, Kei         Koishi, Akihiro             Kosaka, Tadashi\r\n" +
+                                     "Kosaka, Miki          Komoto, Keisuke         Komoto, Shogo               Komoto, Aya\r\n" +
+                                     "Koya, Ryohei          Saihata, Keisuke        Sakaitani, Machiko          Sakagami, Akito\r\n" +
+                                     "Sakato, Tadashi       Sakato, Tamae           Sakato, Kanako              Saki, Akio\r\n" +
+                                     "Sakimura, Kimihiko    Sakimura, Sayo          Sannohe, Yuria              Shioi, Yusuke\r\n" +
+                                     "Shikishima, Nozomu    Shikishima, Aya         Shigei, Kenichi             Shigekura, Sawa\r\n" +
+                                     "Shigekura, Nanami     Shimakuchi, Akemi       Suekawa, Kenichi            Sugano, Shizuru\r\n" +
+                                     "Suzuishi, Aoi         Sutani, Mika            Seo, Ikki                   Seo, Seiki\r\n" +
+                                     "Seo, Soji             Tamura, Ai              Tamura, Aiko                Tamura, Umi\r\n" +
+                                     "Tamura, Kai           Tamura, Kaito           Tamura, Ko                  Tokui, Mei\r\n" +
+                                     "Toda, Koko            Toda, Manami            Natori, Fumi                Nitta, Miki\r\n" +
+                                     "Nitta, Mine           Negishi, Sota           Noguchi, Mie                Nomo, Shunki\r\n" +
+                                     "Nomo, Ko              Hamabe, Miki            Higuchi, Kuon               Higuchi, Mana\r\n" +
+                                     "Fujiki, Toko          Fujiki, Yae             Fujimoto, Nana              Hotta, Yuji\r\n" +
+                                     "Manabe, Iku           Manabe, Rin             Miura, Koki                 Miura, Kodai\r\n" +
+                                     "Miura, Hase           Miura, Mai              Miura, Maiko                Miura, Yuki\r\n" +
+                                     "Muto, Mirai           Yada, Shu               Yada, Taito                 Yokoi, Ai\r\n" +
+                                     "Yokoi, Aki            Yokoi, Kaito            Yokoi, Mai";
+
+        //-------------------------------------------------------------------------------------------------------------------------------
+
+        internal static string[] peopleArray6 = new string[] {
+            "Abe, Ame\r\n","Abe, Kiko\r\n","Abe, Kei\r\n","Abe, Keiki\r\n","Abe, Keigo\r\n","Ueda, Yo\r\n","Uno, Yu\r\n","Kikuchi, Koichi\r\n",
+            "Masumura, Shunsuke"
+        };
+
+        internal static string[] peopleArray7 = new string[] {
+            "Aibe, Tomo\r\n","Abe, Mei\r\n","Hasebe, Nanao\r\n","Hasebe, Hiroki\r\n","Hayakawa, Aki\r\n","Saito, Suguru\r\n","Saito, Tomoaki\r\n",
+            "Fujita, Shu\r\n","Fujita, Rio\r\n","Horita, Dan\r\n","Horii, Misato\r\n","Manabe, Yo\r\n","Manabe, Yota\r\n","Yabe, Michi\r\n",
+            "Yabe, Meme\r\n","Yoshida, Toshi\r\n","Yoshida, Yudai\r\n","Waizumi, Taki\r\n","Waizumi, Nishiko\r\n","Wada, Hisa\r\n","Wada, Nao\r\n",
+            "Wada, Yuki\r\n","Wada, Yuko"
+        };
+
+        internal static string[] peopleArray8 = new string[] {
+            "Aizawa, Tone\r\n","Aida, Hio\r\n","Aida, Yu\r\n","Aida, Yudai\r\n","Sato, Toki\r\n","Sato, Yu\r\n","Sato, Yuya\r\n","Sato, Yosuke\r\n",
+            "Saito, Kazuki\r\n","Saito, Shoji\r\n","Saito, Tomoharu\r\n","Sudo, Shizuku\r\n","Sudo, Tae\r\n","Sudo, Mei\r\n","Seo, Yuichi\r\n",
+            "Seo, Wako\r\n","Toda, Neiko\r\n","Toguchi, Hana\r\n","Toguchi, Namiko\r\n","Nishida, So\r\n","Nishida, Takumi\r\n","Noguchi, Hisa\r\n",
+            "Niguchi, Fune\r\n","Fujimoto, Yuko\r\n","Horiuchi, To\r\n","Horiuchi, Yuji\r\n","Miura, Nene\r\n","Musaka, Sai\r\n","Morii, Mana\r\n",
+            "Morii, Kohei\r\n","Moriguchi, En\r\n","Moriguchi, Kanta\r\n","Yao, Ichio\r\n","Watanabe, Nae"
+        };
 
     }
 }
