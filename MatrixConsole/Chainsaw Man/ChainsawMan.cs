@@ -1,4 +1,5 @@
 ﻿using static MatrixConsole.ChainsawManPeople;
+using System.Media;
 namespace MatrixConsole
 {
     internal class ChainsawMan
@@ -6,6 +7,17 @@ namespace MatrixConsole
         //gun devil attack beginning
         internal static void GunDevil()
         {
+            //for start typing machine sound
+            if (OperatingSystem.IsWindows())
+            {
+                SoundPlayer typingSound = new SoundPlayer("Keyboard-Typing.wav");
+                typingSound.Load();
+                typingSound.Play();
+                //typingSound.Stop();
+                //typingSound.PlayLooping();
+            }
+            //end of typing machine sound
+
             string date = "September 12, 1997 3:18:21 P.M.";
             date.ToCharArray();
             for (int i = 0; i < date.Length; i++)
