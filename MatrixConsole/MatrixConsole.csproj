@@ -12,9 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Chainsaw Man\Keyboard-Typing.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Update="Keyboard-Typing.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

@@ -1,4 +1,5 @@
 ﻿using MatrixConsole;
+using MatrixConsole.Billionaire.Game_Menu;
 using MatrixConsole.New_Year;
 
 class Program
@@ -22,6 +23,7 @@ class Program
             Console.WriteLine("1) Type New Year to see New Year functions.");
             Console.WriteLine("2) Type Matrix to chose Matrix.");
             Console.WriteLine("3) Type Chainsaw Man (or Chainsaw) to chose Chainsaw Man.");
+            Console.WriteLine("4) Type Billionaire (or Billion) to chose Billionaire Game.");
             Console.Write(">");
 
             string input = Console.ReadLine().Trim().ToLower();
@@ -47,6 +49,12 @@ class Program
             {
                 Console.Clear();
                 ChainsawMan.GunDevil();
+            }
+
+            if (input == "billion" || input == "billionaire")
+            {
+                Console.Clear();
+                BillionaireMenu.ShowMenu();
             }
 
             //========================================================================================================================
