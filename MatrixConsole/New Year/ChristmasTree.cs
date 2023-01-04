@@ -62,32 +62,12 @@
                         for (int j = a - 1; j < a + i + i; j++)
                         {
                             char c = '*';
-                            Random random= new ();
-                            int r = random.Next(1,3);
-                            if (r == 2)
+                            Random random = new();
+                            int r = random.Next(1, 5);
+                            if (r == 1)
                             {
-                                Random random1 = new();
-                                int r2 = random.Next(1, 3);
-                                if (r2 == 2)
-                                {
-                                    Random random3 = new();
-                                    int r3 = random.Next(1, 3);
-                                    if (r3 == 2)
-                                    {
-                                        Console.ForegroundColor = ConsoleColor.DarkRed;
-                                        Console.Write(c);
-                                    }
-                                    else
-                                    {
-                                        Console.ForegroundColor = ConsoleColor.DarkGreen;
-                                        Console.Write(c);
-                                    }
-                                }
-                                else
-                                {
-                                    Console.ForegroundColor = ConsoleColor.DarkGreen;
-                                    Console.Write(c);
-                                }
+                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                Console.Write(c);
                             }
                             else
                             {
