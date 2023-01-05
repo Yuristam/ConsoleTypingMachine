@@ -38,20 +38,20 @@ class Program
             }
 
             // if you wanna see Matrix movie console
-            if (input == "matrix")
+            else if (input == "matrix")
             {
                 Console.Clear();
                 Matrix.ShowMatrix();
             }
 
             //if you wanna see chainsaw man (gun devil attack)
-            if (input == "chainsaw man" || input == "chainsaw")
+            else if (input == "chainsaw man" || input == "chainsaw")
             {
                 Console.Clear();
                 ChainsawMan.GunDevil();
             }
 
-            if (input == "billion" || input == "billionaire")
+            else if (input == "billion" || input == "billionaire")
             {
                 Console.Clear();
                 BillionaireMenu.ShowMenu();
@@ -60,7 +60,7 @@ class Program
             //========================================================================================================================
 
             // if you wanna quit
-            if (input == "quit" || input == "q")
+            else if (input == "quit" || input == "q")
             {
                 MenuCommands.MenuExit();
             }

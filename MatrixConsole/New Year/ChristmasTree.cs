@@ -44,6 +44,7 @@
                 }
             }
         }
+        //==============================================================================================
         internal static void DrawDecoratedTree()
         {
             while (true)
@@ -84,6 +85,86 @@
                     }
                     Console.ForegroundColor = ConsoleColor.DarkYellow; //for tree root
                     Console.WriteLine("|");
+                    Console.ResetColor();
+                    Console.WriteLine("\r\nPress any key to get back.");
+                    Console.ReadKey();
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("You entered a wrong symbol, please enter number.");
+                    Thread.Sleep(1000);
+                    Console.Clear();
+                }
+            }
+        }
+        //==============================================================================================
+        internal static void DrawSecondDecoratedTree()
+        {
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("Enter the level of Christmas Tree:");
+                Console.Write(">");
+                if (int.TryParse(Console.ReadLine(), out int a))
+                {
+                    char[] c = new char[] { '*' };
+                    for (int i = 0; i < a; i++)
+                    {
+                        for (int k = i + 1; k < a; k++)
+                        {
+                            Console.Write(" "); // int k(s)
+                        }
+                        for (int j = a - 1; j < a + i + i; j++)
+                        {
+                            Random random = new();
+                            int r = random.Next(1, 10); 
+                            if (i == 0)
+                            {
+                                c[0] = '*';
+                                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                                Console.Write(c[0]);
+                            }
+                            else if (r == 1)
+                            {
+                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                Console.Write(c);
+                            }
+                            else if (r == 2)
+                            {
+                                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                                Console.Write(c);
+                            }
+                            else if (r == 3)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Magenta;
+                                Console.Write(c);
+                            }/*
+                            else if (r == 4)
+                            {
+                                Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                                Console.Write(c);
+                            }
+                            else if (r == 5)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.Write(c);
+                            }*/
+                            else
+                            {
+                                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                                Console.Write(c); //int j(s)
+                            }
+                            Console.ResetColor();
+                        }
+                        Console.WriteLine(); //int i(s)
+                    }
+                    for (int i = 0; i < a-1; i++)
+                    {
+                        Console.Write(" ");
+                    }
+                    Console.ForegroundColor = ConsoleColor.DarkYellow; //for tree root
+                    Console.WriteLine("█");
                     Console.ResetColor();
                     Console.WriteLine("\r\nPress any key to get back.");
                     Console.ReadKey();

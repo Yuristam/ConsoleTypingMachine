@@ -34,6 +34,12 @@
                 ChristmasTree.DrawDecoratedTree();
             }
 
+            //if you wanna see second decorated tree
+            if(input == "2")
+            {
+                ChristmasTree.DrawSecondDecoratedTree();
+            }
+
             //if you wanna see snowing console
             if (input == "snow" || input == "snowing")
             {
