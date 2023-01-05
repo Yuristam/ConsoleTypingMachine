@@ -4,6 +4,7 @@ namespace MatrixConsole.Billionaire.Game_Menu
 {
     internal class BillionaireMenu
     {
+        //THIS PART IS NOT WORKING YET(NEED TO BUILD IT)
         internal static void ShowMenu()
         {
             Console.WriteLine("Welcome to the Billionaire Game!\r\n" +

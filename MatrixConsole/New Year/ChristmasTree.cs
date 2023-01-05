@@ -1,4 +1,6 @@
-﻿namespace MatrixConsole.New_Year
+﻿using System.Media;
+
+namespace MatrixConsole.New_Year
 {
     internal class ChristmasTree
     {
@@ -103,6 +105,16 @@
         {
             while (true)
             {
+                // the christmas song part
+                if (OperatingSystem.IsWindows())
+                {
+                    SoundPlayer music = new SoundPlayer("Weathering With You - Fireworks Festival (Kayou. Remix).wav");
+                    music.Load();
+                    music.PlayLooping();
+                    //music.Play();
+                }
+
+                // the christmas tree part
                 Console.Clear();
                 Console.WriteLine("Enter the level of Christmas Tree:");
                 Console.Write(">");
@@ -122,7 +134,7 @@
                             if (i == 0)
                             {
                                 c[0] = '*';
-                                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.Write(c[0]);
                             }
                             else if (r == 1)
@@ -130,24 +142,14 @@
                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                 Console.Write(c);
                             }
-                            else if (r == 2)
+                           /* else if (r == 2)
                             {
                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                                 Console.Write(c);
-                            }
-                            else if (r == 3)
+                            }*/
+                           /* else if (r == 3)
                             {
                                 Console.ForegroundColor = ConsoleColor.Magenta;
-                                Console.Write(c);
-                            }/*
-                            else if (r == 4)
-                            {
-                                Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                                Console.Write(c);
-                            }
-                            else if (r == 5)
-                            {
-                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.Write(c);
                             }*/
                             else

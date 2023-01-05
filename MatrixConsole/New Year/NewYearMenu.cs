@@ -17,7 +17,8 @@
             Console.WriteLine();
             Console.WriteLine("1) Type Christmas Tree or Tree to draw christmas-tree.");
             Console.WriteLine("2) Type Christmas Decorated Tree or DTree to draw christmas-tree at home.");
-            Console.WriteLine("3) Type Snow or Snowing to see Snowing.");
+            Console.WriteLine("3) Type 2 to draw second christmas-tree at home.");
+            Console.WriteLine("4) Type Snow or Snowing to see Snowing.");
             Console.Write('>');
 
             string input = Console.ReadLine().Trim().ToLower();
@@ -41,7 +42,7 @@
             }
 
             //if you wanna see snowing console
-            if (input == "snow" || input == "snowing")
+            if (input == "snow" || input == "snowing" || input =="s")
             {
                 Snow.Snowing();
             }
