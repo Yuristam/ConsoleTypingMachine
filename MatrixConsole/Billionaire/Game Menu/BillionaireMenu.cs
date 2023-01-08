@@ -9,7 +9,10 @@ namespace MatrixConsole.Billionaire.Game_Menu
         {
             Console.WriteLine("Welcome to the Billionaire Game!\r\n" +
                 "Choose what do you wanna do.\r\n" +
-                "Start gamer\r\nQuit game\r\nGame instructions");
+                "Start game(s)\r\n" +
+                "Game instructions(i)\r\n" +
+                "Quit game(q)\r\n" +
+                ">");
             string input=Console.ReadLine();
 
             //====================================================

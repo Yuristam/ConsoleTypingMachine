@@ -9,6 +9,7 @@ class Program
         //beginning of the program
         while (true)
         {
+            Console.Clear();
             // the welcome part of the program
             Console.ForegroundColor= ConsoleColor.Green;
             Console.WriteLine("Welcome to my console app!");
@@ -20,10 +21,10 @@ class Program
 
             // the Main Menu of the program
             Console.WriteLine("Main menu");
-            Console.WriteLine("1) Type New Year to see New Year functions.");
+            Console.WriteLine("1) Type New Year (or just n) to see New Year functions.");
             Console.WriteLine("2) Type Matrix to chose Matrix.");
-            Console.WriteLine("3) Type Chainsaw Man (or Chainsaw) to chose Chainsaw Man.");
-            Console.WriteLine("4) Type Billionaire (or Billion) to chose Billionaire Game.");
+            Console.WriteLine("3) Type Chainsaw Man (or Chainsaw or just c) to chose Chainsaw Man.");
+            Console.WriteLine("4) Type Billionaire (or Billion or just b) to chose Billionaire Game.");
             Console.Write(">");
 
             string input = Console.ReadLine().Trim().ToLower();
@@ -45,13 +46,13 @@ class Program
             }
 
             //if you wanna see chainsaw man (gun devil attack)
-            else if (input == "chainsaw man" || input == "chainsaw")
+            else if (input == "chainsaw man" || input == "chainsaw" || input == "c")
             {
                 Console.Clear();
                 ChainsawMan.GunDevil();
             }
 
-            else if (input == "billion" || input == "billionaire")
+            else if (input == "billion" || input == "billionaire" || input == "b")
             {
                 Console.Clear();
                 BillionaireMenu.ShowMenu();

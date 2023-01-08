@@ -142,16 +142,16 @@ namespace MatrixConsole.New_Year
                                 Console.ForegroundColor = ConsoleColor.DarkRed;
                                 Console.Write(c);
                             }
-                           /* else if (r == 2)
+                            else if (r == 2)
                             {
                                 Console.ForegroundColor = ConsoleColor.DarkBlue;
                                 Console.Write(c);
-                            }*/
-                           /* else if (r == 3)
-                            {
-                                Console.ForegroundColor = ConsoleColor.Magenta;
-                                Console.Write(c);
-                            }*/
+                            }
+                            /* else if (r == 3)
+                             {
+                                 Console.ForegroundColor = ConsoleColor.Magenta;
+                                 Console.Write(c);
+                             }*/
                             else
                             {
                                 Console.ForegroundColor = ConsoleColor.DarkGreen;
