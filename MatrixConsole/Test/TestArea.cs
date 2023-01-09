@@ -8,8 +8,10 @@ namespace MatrixConsole.Test
         {
             while (true)
             {
+                Console.Clear();
                 Console.WriteLine("This is the Test Area.\r\n" +
-                "Here you can try new learned things.");
+                "Here you can try new learned things.\r\n" +
+                "Type 1 if you wanna test Cyrillic script");
                 Console.Write(">");
                 string input = Console.ReadLine();
 
