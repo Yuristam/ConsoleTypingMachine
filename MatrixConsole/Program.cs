@@ -1,6 +1,7 @@
 ﻿using MatrixConsole;
 using MatrixConsole.Billionaire.Game_Menu;
 using MatrixConsole.New_Year;
+using MatrixConsole.Test;
 
 class Program
 {
@@ -20,11 +21,13 @@ class Program
             Console.ResetColor();
 
             // the Main Menu of the program
-            Console.WriteLine("Main menu");
-            Console.WriteLine("1) Type New Year (or just n) to see New Year functions.");
-            Console.WriteLine("2) Type Matrix to chose Matrix.");
-            Console.WriteLine("3) Type Chainsaw Man (or Chainsaw or just c) to chose Chainsaw Man.");
-            Console.WriteLine("4) Type Billionaire (or Billion or just b) to chose Billionaire Game.");
+            Console.WriteLine("Main menu\r\n" +
+                              "1) Type New Year (or just n) to see New Year functions.\r\n" +
+                              "2) Type Matrix to chose Matrix.\r\n" +
+                              "3) Type Chainsaw Man (or Chainsaw or just c) to chose Chainsaw Man.\r\n" +
+                              "4) Type Billionaire (or Billion or just b) to chose Billionaire Game.\r\n" +
+                              "5) Type Dungeon (or just d) to play Dungeon Game.\r\n" +
+                              "6) Type Test (or just t) to view C# Console Test Area.");
             Console.Write(">");
 
             string input = Console.ReadLine().Trim().ToLower();
@@ -52,10 +55,25 @@ class Program
                 ChainsawMan.GunDevil();
             }
 
+            //if you wanna play billion game
             else if (input == "billion" || input == "billionaire" || input == "b")
             {
                 Console.Clear();
                 BillionaireMenu.ShowMenu();
+            }
+
+            //if you wanna play dungeon game
+            else if (input == "dungeon" || input == "d")
+            {
+                Console.Clear();
+
+            }
+
+            //if i want to test smth new in console
+            else if (input =="test" || input == "t")
+            {
+                Console.Clear();
+                TestArea.ShowTestArea();
             }
 
             //========================================================================================================================

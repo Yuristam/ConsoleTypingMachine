@@ -16,24 +16,28 @@ namespace MatrixConsole.Billionaire.Game_Menu
             string input=Console.ReadLine();
 
             //====================================================
+            
             //start game
             if(input=="s"||input == "start")
             {
                 Console.Clear();
                 GameLevels.StartGame();
             }
+            
             //show instructions
             if(input=="i"||input == "instructions")
             {
                 Console.Clear();
                 ShowInstructions();
             }
+            
             //quit game and go to the main menu (in class Program)
             else if (input == "quit" || input == "q")
             {
                 Console.Clear();
                 Program.Main();
             }
+            
             else
             {
                 Console.Clear();
