@@ -30,6 +30,9 @@ namespace MatrixConsole.Dungeon_Adventure
             //battle time end
 
             //==================================================================================================================
+
+
+            /*
             //shop time start 
             int money;
             int food;
@@ -57,6 +60,22 @@ namespace MatrixConsole.Dungeon_Adventure
             WriteLine($"you have {food} food in bag and {money} monay.");
             ReadKey();
             //shop time end
-        }
+*/
+
+            // interesting thing
+/*            int age;
+            Write("Введите свой возраст:");
+            age = Convert.ToInt32(ReadLine());
+            if (age >= 18)
+            {
+                WriteLine("Добро пожаловать в наш бар!");
+                WriteLine("Что будете пить?");
+            }
+            else
+            {
+                WriteLine("Вы слишком юны.");
+                WriteLine("Приходите к нам через: " + (18 - age) + " лет.");
+            }
+*/        }
     }
 }

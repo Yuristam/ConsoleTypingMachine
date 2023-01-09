@@ -6,6 +6,7 @@
         {
             while (true)
             {
+                Console.Clear();
                 //new year menu
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("This is New Year Menu");

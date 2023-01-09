@@ -38,7 +38,6 @@ class Program
             //if you wanna see New Year
             if (input == "new year" || input =="n")
             {
-                Console.Clear();
                 NewYearMenu.ShowNewYearMenu();
             }
 
@@ -59,21 +58,18 @@ class Program
             //if you wanna play billion game
             else if (input == "billion" || input == "billionaire" || input == "b")
             {
-                Console.Clear();
                 BillionaireMenu.ShowMenu();
             }
 
             //if you wanna play dungeon game
             else if (input == "dungeon" || input == "d")
             {
-                Console.Clear();
                 DungeonGameMenu.ShowGameMenu();
             }
 
             //if i want to test smth new in console
             else if (input =="test" || input == "t")
             {
-                Console.Clear();
                 TestArea.ShowTestArea();
             }
 
