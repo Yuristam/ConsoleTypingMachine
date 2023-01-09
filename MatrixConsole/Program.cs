@@ -1,5 +1,6 @@
 ﻿using MatrixConsole;
 using MatrixConsole.Billionaire.Game_Menu;
+using MatrixConsole.Dungeon_Adventure;
 using MatrixConsole.New_Year;
 using MatrixConsole.Test;
 
@@ -66,7 +67,7 @@ class Program
             else if (input == "dungeon" || input == "d")
             {
                 Console.Clear();
-
+                DungeonGameMenu.ShowGameMenu();
             }
 
             //if i want to test smth new in console
