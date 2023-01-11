@@ -63,19 +63,37 @@ namespace MatrixConsole.Dungeon_Adventure
 */
 
             // interesting thing
-/*            int age;
-            Write("Введите свой возраст:");
-            age = Convert.ToInt32(ReadLine());
-            if (age >= 18)
+            /*            int age;
+                        Write("Введите свой возраст:");
+                        age = Convert.ToInt32(ReadLine());
+                        if (age >= 18)
+                        {
+                            WriteLine("Добро пожаловать в наш бар!");
+                            WriteLine("Что будете пить?");
+                        }
+                        else
+                        {
+                            WriteLine("Вы слишком юны.");
+                            WriteLine("Приходите к нам через: " + (18 - age) + " лет.");
+                        }
+            */
+
+/*
+            int money = 400;
+            int level = 8;
+            if(money >= 100 || level >= 9)
             {
-                WriteLine("Добро пожаловать в наш бар!");
-                WriteLine("Что будете пить?");
+                Console.WriteLine("Проходи! Добро пожаловать в нашу гильдию!");
             }
             else
             {
-                WriteLine("Вы слишком юны.");
-                WriteLine("Приходите к нам через: " + (18 - age) + " лет.");
-            }
-*/        }
+                Console.WriteLine("Вас выпнули за дверь!");
+            }*/
+        
+
+
+
+
+        }
     }
 }
