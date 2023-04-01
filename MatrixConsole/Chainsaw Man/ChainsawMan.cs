@@ -7,18 +7,19 @@ namespace MatrixConsole
         //gun devil attack beginning
         internal static void GunDevil()
         {
-           /* //be careful
-            for (int i = 0; i < 3; i++)
-            {
-                Console.ForegroundColor = ConsoleColor.DarkRed;
-                Console.Clear();
-                string spoiler = "SPOILER ALERT";
-                Console.WriteLine(spoiler);
-                Thread.Sleep(1000);
-            }
-            Console.Clear();
-            Console.ResetColor();
-            //i warned you*/
+            Console.CursorVisible = false;
+            /* //be careful
+             for (int i = 0; i < 3; i++)
+             {
+                 Console.ForegroundColor = ConsoleColor.DarkRed;
+                 Console.Clear();
+                 string spoiler = "SPOILER ALERT";
+                 Console.WriteLine(spoiler);
+                 Thread.Sleep(1000);
+             }
+             Console.Clear();
+             Console.ResetColor();
+             //i warned you*/
 
             //typing sound
             if (OperatingSystem.IsWindows())

@@ -5,7 +5,6 @@ class Program
 {
     internal static void Main()
     {
-        Console.CursorVisible = false;
         while (true)
         {
             Console.Clear();
