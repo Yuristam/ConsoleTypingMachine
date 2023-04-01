@@ -32,9 +32,6 @@
         internal static string people5 = "Jinnai, Tetsuro\r\nSugano, Tsunehiro\r\nSugimoto, Shinichi\r\n" +
             "Sugimoto, Shinji\r\nSoyama, Noboru\r\nTakada, Koji";
 
-
-        //internal static string[] peopleArray1 = new string[] { people1, people2, people3, people4, people5 }; //i don't need this string
-
         //-------------------------------------------------------------------------------------------------------------------------------
 
         internal static string people6 = "Takada, Ryosuke          Takahata, Harumi          Takahashi, Tsuneo\r\n" +
@@ -64,7 +61,6 @@
                                          "Fukigami, Misuzu         Fukui, Junko              Fukui, Keiichi\r\n" +
                                          "Fujio, Kazuo             Fujio, Mitsuko            Fujii, Chiyo\r\n" +
                                          "Fujii, Miyako            Fujii, Shunsuke           Fujii, Akari"; //27
-
 
         //-------------------------------------------------------------------------------------------------------------------------------
 
@@ -255,6 +251,5 @@
             "Niguchi, Fune\r\n","Fujimoto, Yuko\r\n","Horiuchi, To\r\n","Horiuchi, Yuji\r\n","Miura, Nene\r\n","Musaka, Sai\r\n","Morii, Mana\r\n",
             "Morii, Kohei\r\n","Moriguchi, En\r\n","Moriguchi, Kanta\r\n","Yao, Ichio\r\n","Watanabe, Nae"
         };
-
     }
 }

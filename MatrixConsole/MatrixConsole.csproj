@@ -18,10 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Keyboard-Typing.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Weathering With You - Fireworks Festival %28Kayou. Remix%29.wav">
+    <None Update="Chainsaw Man\Keyboard Typing.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
