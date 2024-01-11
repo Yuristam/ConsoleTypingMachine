@@ -1,31 +1,31 @@
-﻿using MatrixConsole;
-using MatrixConsole.Matrix;
+﻿using ConsoleTypingMachine.ChainsawMan;
+using ConsoleTypingMachine.Matrix;
 
 class Program
 {
-    internal static void Main()
+    static void Main()
     {
         while (true)
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Welcome to my console app!");
+
             for (int i = 0; i < Console.BufferWidth; i++)
             {
                 Console.Write('=');
             }
-            Console.ResetColor();
 
-            // the Main Menu of the program
-            Console.WriteLine("Main menu\r\n" +
-                              "1) Type Matrix to choose Matrix.\r\n" +
-                              "2) Type Chainsaw Man (or Chainsaw) to choose Chainsaw Man.\r\n" +
-                              "4) Exit.");
-            Console.Write(">");
+            Console.ResetColor();
+            Console.Write(
+                "Main menu\r\n" +
+                "1) Type Matrix to choose Matrix.\r\n" +
+                "2) Type Chainsaw Man (or Chainsaw) to choose Chainsaw Man.\r\n" +
+                "3) Exit.\r\n" +
+                ">");
 
             string input = Console.ReadLine().Trim().ToLower();
 
-            //========================================================================================================================
             if (input == "matrix")
             {
                 Console.Clear();
@@ -42,7 +42,6 @@ class Program
             }
             else
             {
-                Console.Clear();
                 Console.WriteLine("Please, write something that is in the list above.");
                 Thread.Sleep(1000);
                 Console.Clear();

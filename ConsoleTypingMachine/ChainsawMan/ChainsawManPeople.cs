@@ -1,6 +1,6 @@
-﻿namespace MatrixConsole
+﻿namespace ConsoleTypingMachine.ChainsawMan
 {
-    internal class ChainsawManPeople
+    public class ChainsawManPeople
     {
         internal static string people1 = "Deaths:\r\n\r\nAizawa, Yuki\r\nAida, Kohei\r\nAiba, Mahiro\r\n" +
             "Aihara, Nanami\r\nAoi, Yuma\r\nAoi, Kazuma\r\nAkutsu, Shiho\r\nAsai, Yusuke\r\n" +
@@ -138,7 +138,7 @@
             "Yugami, Manami\r\n","Yokogawa, Shino\r\n","Yokota, Rokusuke\r\n","Yoshii, Kimie\r\n","Yoshii, Natsuki\r\n","Yoshii, Shota\r\n",
             "Yoshikawa, Takahiro\r\n","Yoshizaki, Mion\r\n","Rakuno, Zenichi\r\n","Rakuno, Misako\r\n","Rikawa, Yuichi\r\n","Rida, Ryosei\r\n",
             "Ryutaku, Kenji\r\n","Rinno, Hisao\r\n","Rinno, Kota\r\n","Rinno, Churi\r\n","Rekimoto, Shigeko\r\n","Renpo, Kazuro\r\n",
-            "Rokuma, Sakie\r\n","Wai, Kumiko\r\n","Wakahara, Mizuki\r\n","Wagata, Keisuke\r\n","Wagatsuma, Kaito\r\n","Wakuta, Kunihasa" 
+            "Rokuma, Sakie\r\n","Wai, Kumiko\r\n","Wakahara, Mizuki\r\n","Wagata, Keisuke\r\n","Wagatsuma, Kaito\r\n","Wakuta, Kunihasa"
         };
 
         //-------------------------------------------------------------------------------------------------------------------------------
