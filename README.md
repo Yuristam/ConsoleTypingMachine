@@ -1,6 +1,8 @@
-# MatrixConsole
+# Console Typing Machine
 
-## Just For Fun
+## #Just For Fun
+
+> This project was created just for fun *(it does nothing useful 🤪)*.
 
 ## English
 
